@@ -1477,6 +1477,7 @@ window.t = {
     'hero-h1':'Luxe, Mode<br />Joaillerie & Horlogerie',
     "hero-sub":"15 ans d'expérience dans les environnements wholesale, digital et marketplace au sein des maisons les plus exigeantes — au service de votre transformation commerciale.",
     'hero-cta':'Prendre contact',
+    'floating-cta':'Prendre contact →',
     'about-eyebrow':'À propos',
     'about-h2':'Un profil hybride,<br />entre culture produit et rigueur commerciale',
     "about-p1":"Diplômé de l'ESSEC Business School avec une spécialisation en management du luxe, j'ai construit mon parcours à l'intersection du commerce, du digital et de la culture des maisons — de Givenchy/LVMH à Printemps.com, en passant par Le Gramme et Monnier Paris.",
@@ -1609,6 +1610,7 @@ window.t = {
     'hero-h1':'Luxury, Fashion<br />Jewellery & Watchmaking',
     'hero-sub':'15 years of experience in wholesale, digital and marketplace environments within the most demanding luxury houses — at the service of your commercial transformation.',
     'hero-cta':'Get in touch',
+    'floating-cta':'Get in touch →',
     'about-eyebrow':'About',
     'about-h2':'A hybrid profile,<br />bridging product culture and commercial rigour',
     'about-p1':'A graduate of ESSEC Business School with a specialisation in luxury management, I have built my career at the intersection of commerce, digital and maison culture — from Givenchy/LVMH to Printemps.com, Le Gramme and Monnier Paris.',
@@ -1743,7 +1745,7 @@ window.t = {
     <a href="#cafe" onclick="document.getElementById('mobile-menu').classList.remove('open')">CAFÉ JOAILLERIE</a>
     <a href="#contact" onclick="document.getElementById('mobile-menu').classList.remove('open')">CONTACT</a>
   </div>
-  <a href="#contact" id="floating-cta" style="position:fixed;bottom:32px;right:32px;z-index:200;background:var(--black);color:var(--white);font-family:var(--sans);font-size:0.68rem;letter-spacing:0.15em;text-transform:uppercase;text-decoration:none;padding:14px 24px;box-shadow:0 4px 20px rgba(0,0,0,0.2);opacity:0;pointer-events:none;transition:opacity 0.3s;" onmouseover="this.style.background='#B8A06A'" onmouseout="this.style.background='var(--black)'">Prendre contact →</a>
+  <a href="#contact" id="floating-cta" style="position:fixed;bottom:32px;right:32px;z-index:200;background:var(--black);color:var(--white);font-family:var(--sans);font-size:0.68rem;letter-spacing:0.15em;text-transform:uppercase;text-decoration:none;padding:14px 24px;box-shadow:0 4px 20px rgba(0,0,0,0.2);opacity:0;pointer-events:none;transition:opacity 0.3s;" onmouseover="this.style.background='#B8A06A'" onmouseout="this.style.background='var(--black)'" data-i18n="floating-cta">Prendre contact →</a>
   <script>window.addEventListener('scroll',function(){var c=document.getElementById('floating-cta');if(c){c.style.opacity=window.scrollY>400?'1':'0';c.style.pointerEvents=window.scrollY>400?'auto':'none';}});</script>
 </body>
 </html>
